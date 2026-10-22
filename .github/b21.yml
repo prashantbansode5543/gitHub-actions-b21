@@ -1,0 +1,10 @@
+name: My Workflow
+
+on: [push]
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Welcome Message
+        run: echo "Welcome to my workflow!"
